@@ -1,0 +1,10 @@
+/target/
+**/*.rs.bk
+*.key
+*.pem
+/nexu-core/include/nexu_core.h.tmp
+.DS_Store
+nexucore.so
+nexucore.h
+RELEASE_ASSERTION.txt
+TAG_MSG.txt
