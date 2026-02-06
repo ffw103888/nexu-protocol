@@ -1,0 +1,1 @@
+/root/nexu-protocol/nexu-core/target/x86_64-unknown-linux-gnu/release/libnexu_core.a: /root/nexu-protocol/nexu-core/src/ffi.rs /root/nexu-protocol/nexu-core/src/lib.rs /root/nexu-protocol/nexu-core/src/stitch.rs

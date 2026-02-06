@@ -1,0 +1,16 @@
+[package]
+name = "nexu_core"
+version = "2.3.0"
+edition = "2021"
+description = "Nexu Protocol v2.3 Core (Deterministic C-ABI Boundary)"
+license = "Apache-2.0"
+
+[lib]
+name = "nexu_core"
+crate-type = ["cdylib", "staticlib"]  # 编译为C兼容的动态/静态库
+
+[dependencies]
+libc = "0.2"          # C语言交互基础
+sha2 = "0.10"         # SHA256哈希算法
+hex = "0.4"           # 十六进制编码
+thiserror = "1.0"     # 规范错误处理
